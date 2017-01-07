@@ -1,0 +1,6 @@
+c:\users\marchenko.a\documents\visual studio 2012\Projects\StatIvan\StatIvan\bin\Debug\StatIvan.exe.config
+c:\users\marchenko.a\documents\visual studio 2012\Projects\StatIvan\StatIvan\bin\Debug\StatIvan.exe
+c:\users\marchenko.a\documents\visual studio 2012\Projects\StatIvan\StatIvan\bin\Debug\StatIvan.pdb
+c:\users\marchenko.a\documents\visual studio 2012\Projects\StatIvan\StatIvan\obj\Debug\StatIvan.csprojResolveAssemblyReference.cache
+c:\users\marchenko.a\documents\visual studio 2012\Projects\StatIvan\StatIvan\obj\Debug\StatIvan.exe
+c:\users\marchenko.a\documents\visual studio 2012\Projects\StatIvan\StatIvan\obj\Debug\StatIvan.pdb
