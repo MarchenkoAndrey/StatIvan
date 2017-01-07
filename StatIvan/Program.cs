@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.IO;
-using System.Text.RegularExpressions;
 
 namespace StatIvan
 {
@@ -26,12 +25,14 @@ namespace StatIvan
                 Console.WriteLine("The sample must be a hundred items");
                 return;
             }
-            var table = new Table1(data);
-            PrintResult.PrintTable(table);
+            var table = new Part1(data);
+            PrintResult.PrintPart1(table);
 
             var part2 = new Part2(table);
-            PrintResult.PrintData(part2);
-           
+            PrintResult.PrintPart2(part2);
+
+            var part3 = new Part3(table, part2);
+            PrintResult.PrintPart3(table, part3);
         }
     }
 }

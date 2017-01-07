@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace StatIvan
 {
-    public class Table1
+    public class Part1
     {
         public string[] Ii;
         public int[] Ni;
@@ -17,10 +17,11 @@ namespace StatIvan
         public int k;
         public int h;
 
+        public int Count; 
 
-
-        public Table1(double[] data)
+        public Part1(double[] data)
         {
+            Count = data.Length;
             StartInterval = (int)Math.Round(data.Min());
             FinishInterval = (int)Math.Round(data.Max());
             LengthInterval = FinishInterval - StartInterval;
